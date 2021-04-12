@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1015651248389",
+    "firebase_url": "https://monami-server.firebaseio.com",
+    "project_id": "monami-server",
+    "storage_bucket": "monami-server.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015651248389:android:4b33f8a80575bc130def6c",
+        "android_client_info": {
+          "package_name": "com.dlab.monami"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015651248389-6e86dbtm1arm7msnbc2bm4ck57mh3cqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dlab.monami",
+            "certificate_hash": "2d6bb03f3c8ee70042ffd0301c3cbc2de743e381"
+          }
+        },
+        {
+          "client_id": "1015651248389-libbabjmvbuk9dh4j9tqujlvuie29ii6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dlab.monami",
+            "certificate_hash": "d031f88b2d73e7b68973c46e67779f4a9762ac21"
+          }
+        },
+        {
+          "client_id": "1015651248389-fhlkq6p6vopjqgjih6fbc6u5n5npfij5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcMQQpo63pVr5Areq7YvonI05mp-nNMX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015651248389-fhlkq6p6vopjqgjih6fbc6u5n5npfij5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

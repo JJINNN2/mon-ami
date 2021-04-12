@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:minHeight="80dp"
+    android:background="@drawable/round_box"
+    android:backgroundTint="#DADADA"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:elevation="0dp"
+    android:weightSum="4"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_box"
+        android:backgroundTint="#ECECEC">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_box"
+        android:backgroundTint="#ECECEC"
+        android:layout_width="10dp">
+    </LinearLayout>
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tv_writer"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/nicknamebox"
+        android:backgroundTint="#ECECEC"
+        android:gravity="center" />
+
+
+</LinearLayout>

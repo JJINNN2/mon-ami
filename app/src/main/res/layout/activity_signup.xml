@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="35dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="가입하기"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/color1"
+            android:textStyle="bold"
+            android:text="닉네임"
+            />
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="닉네임"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/color1"
+            android:inputType="text"
+            android:background="@drawable/inputbox1"
+            android:layout_marginBottom="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="@color/tab_gray"
+            android:textStyle="bold"
+            android:text="닉네임은 다른 기록자들이 알아보기 쉬운 이름이 좋아요.\nEX) 예지맘, 지훈이 할아버지"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/color1"
+            android:textStyle="bold"
+            android:text="이메일"
+            />
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="이메일을 입력해주세요"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/inputbox1"
+            android:textColor="@color/color1"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/color1"
+            android:textStyle="bold"
+            android:text="비밀번호"
+            />
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="비밀번호를 입력해주세요"
+            android:background="@drawable/inputbox1"
+            android:layout_marginBottom="7dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/color1"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+        <EditText
+            android:id="@+id/passwordETconfirm"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="비밀번호를 한번 더 입력해주세요"
+            android:paddingLeft="10dp"
+            android:background="@drawable/inputbox1"
+            android:textColor="@color/color1"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="12dp"
+            android:textColor="@color/tab_gray"
+            android:textStyle="bold"
+            android:text="6자 이상, 영숫자 혼용 권장"
+            />
+
+        <TextView
+            android:id="@+id/singupBtn"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="가입하기"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/loginbutton2"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

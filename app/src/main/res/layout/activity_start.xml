@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".StartActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/monami_logo"
+            android:id="@+id/Title"
+            />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:textSize="16dp"
+            android:textColor="#434343"
+            android:text="모나미는 모든 아이들의 행복한 성장을 응원합니다."
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/emailStartButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="이메일로 시작하기"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/color1"
+            android:background="@drawable/loginbutton1"
+            />
+        <TextView
+            android:id="@+id/GoogleStartButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Google로 시작하기"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/color1"
+            android:background="@drawable/loginbutton1"
+            android:drawableLeft="@drawable/ic_google_icon"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="17dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_invalid_name"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="이미 계정이 있으신가요?">
+            </TextView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/startlogin"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="로그인하기"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/color1"
+            android:background="@drawable/loginbutton1"
+            />
+    </LinearLayout>
+
+</LinearLayout>

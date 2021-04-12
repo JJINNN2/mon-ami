@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_array">
+        <item>시선을 회피한다</item>
+        <item>혼자 시간을 보내고 싶어한다</item>
+        <item>언어 지연이 있다</item>
+        <item>같은 단어나 말을 반복한다</item>
+        <item>작은 변화에도 힘들어한다</item>
+        <item>특정 물건에 집착한다</item>
+        <item>Test1</item>
+        <item>test2</item>
+    </string-array>
+</resources>

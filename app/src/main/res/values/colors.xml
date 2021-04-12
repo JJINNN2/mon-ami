@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4763E8</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#4763E8</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="tab_gray">#979797</color>
+    <color name="black">#000000</color>
+
+    <color name="unselected_color">#979797</color>
+    <color name="selected_color">#000000</color>
+
+    <color name="color1">#4763E8</color>
+    <color name="color2">#F4F6FB</color>
+    <color name="color3">#E8ECFB</color>
+    <color name="color4">#F0F0F3</color>
+    <color name="color5">#D7DFFC</color>
+    <color name="color1_1">#7589EA</color>
+
+    <color name="border_color">#CBD2FF</color>
+    <color name="nickname_color">#d5dfff</color>
+
+
+    <color name="lightish_blue">#4763E8</color>
+    <color name="brown_grey">#a7a7a7</color>
+    <color name="pale_grey">#f4f6fd</color>
+    <color name="pale_grey_two">#eff3ff</color>
+    <color name="black_38">#000000</color>
+
+    <color name="linegray">#B1B1B2</color>
+
+    <color name="itemBG">#E8ECFA</color>
+    <color name="myGrayLight">#EAEDF3</color>
+    <color name="myGrayMiddle">#C0C3C8</color>
+    <color name="myDarkLight">#353C59</color>
+    <color name="myDarkDeep">#21263A</color>
+    <color name="myBlue">#96B3FF</color>
+    <color name="myRed">#FE9599</color>
+    <color name="myRedLight">#FFCACE</color>
+</resources>
+
